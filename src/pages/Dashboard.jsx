@@ -8,19 +8,19 @@ function Dashboard() {
   const metrics = [
     {
       title: "Appeal Pending ≤ 10 Days",
-      count: 0,
+      count: 20,
       icon: "⏰",
       key: "pendingWithin10Days",
     },
     {
       title: "New Appeal(s)",
-      count: 0,
+      count: 2,
       icon: "🆕",
       key: "newAppeals",
     },
     {
       title: "Appeal Under Process",
-      count: 0,
+      count: 2,
       icon: "🔄",
       key: "appealsUnderProcess",
     },
